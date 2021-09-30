@@ -1,0 +1,16 @@
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;}
+
+.gems {
+  height: 56px;
+  width: 56px;}
+
+.gemgrid {
+  height: 512px;
+  width: 512px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
